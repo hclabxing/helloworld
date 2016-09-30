@@ -5,7 +5,13 @@ import (
 )
 
 func main() {
+
 	fmt.Println("hello word!你好，世界！")
+
+	for i := 0; i < 10; i++ {
+		v := i
+		fmt.Println(&v)
+	}
 
 }
 
